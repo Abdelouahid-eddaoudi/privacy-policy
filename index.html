@@ -1,72 +1,272 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edab Studios</title>
-    <meta name="description" content="Edab Studios develops simple and enjoyable mobile apps and games." />
+    <title>Edab Studios | Apps et jeux mobiles</title>
+    <meta
+        name="description"
+        content="Edab Studios presente ses applications mobiles avec une landing page, un support, une politique de confidentialite et des conditions dediees pour chaque produit."
+    />
+    <meta name="theme-color" content="#171d38" />
+    <link rel="icon" type="image/svg+xml" href="assets/edab-favicon.svg" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="hero">
-    <nav class="nav">
-        <div class="logo">Edab Studios</div>
-        <div class="nav-links">
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="support.html">Support</a>
-            <a href="terms.html">Terms</a>
+<header class="hero hero-home">
+    <div class="hero-glow hero-glow-left"></div>
+    <div class="hero-glow hero-glow-right"></div>
+    <nav class="site-nav container">
+        <a class="brand brand-inline" href="./" aria-label="Edab Studios accueil">
+            <span class="brand-mark brand-mark-icon">
+                <img src="assets/edab-favicon.svg" alt="Edab Studios" />
+            </span>
+            <span class="brand-inline-copy">
+                <span class="brand-inline-separator">|</span>
+                <span class="brand-inline-label">Apps et jeux mobiles</span>
+            </span>
+        </a>
+
+        <div class="nav-cluster">
+            <div class="nav-links">
+                <a href="#products">Produits</a>
+                <a href="support/">Support</a>
+                <a href="privacy-policy/">Confidentialit&eacute;</a>
+                <a href="terms/">Conditions</a>
+            </div>
+
+            <div class="lang-switch" aria-label="Choix de langue">
+                <a class="lang-link is-active" href="./">FR</a>
+                <a class="lang-link" href="en/">EN</a>
+            </div>
         </div>
     </nav>
 
-    <section class="hero-content">
-        <span class="badge">Independent Mobile Studio</span>
-        <h1>Simple, polished mobile experiences.</h1>
-        <p>
-            Edab Studios creates mobile apps and games focused on clarity,
-            accessibility, and enjoyable gameplay.
-        </p>
-        <div class="hero-actions">
-            <a class="btn btn-primary" href="privacy-policy.html">Privacy Policy</a>
-            <a class="btn btn-secondary" href="support.html">Get Support</a>
+    <section class="hero-shell container">
+        <div class="hero-copy">
+            <span class="eyebrow">Studio mobile independant</span>
+            <h1>Le studio qui pr&eacute;sente chaque app comme un vrai produit.</h1>
+            <p class="hero-lead">
+                <strong>Edab Studios</strong> construit des exp&eacute;riences mobiles claires et maintenables.
+                Le site studio centralise le catalogue, puis chaque application dispose de sa propre landing page,
+                de son support, de sa privacy policy et de ses terms.
+            </p>
+
+            <div class="hero-actions">
+                <a class="button button-primary" href="#products">Voir les produits</a>
+                <a class="button button-secondary" href="support/">Contacter le studio</a>
+            </div>
+
+            <div class="stat-row">
+                <article class="stat-pill">
+                    <strong>1</strong>
+                    <span>Produit en ligne</span>
+                </article>
+                <article class="stat-pill">
+                    <strong>4 pages</strong>
+                    <span>Par produit</span>
+                </article>
+                <article class="stat-pill">
+                    <strong>FR / EN</strong>
+                    <span>Site bilingue</span>
+                </article>
+            </div>
+
+            <p class="availability-note">
+                La structure est pr&ecirc;te pour accueillir d'autres apps sans m&eacute;langer leurs documents.
+            </p>
+        </div>
+
+        <div class="showcase-panel" aria-hidden="true">
+            <div class="showcase-card">
+                <div class="showcase-topbar">
+                    <span class="status-pill">Catalogue studio</span>
+                    <span class="status-meta">URLs propres</span>
+                </div>
+
+                <div class="catalog-list">
+                    <article class="catalog-list-item">
+                        <div>
+                            <strong>Sudoku Play</strong>
+                            <span>Puzzle mobile, progression, d&eacute;fi quotidien</span>
+                        </div>
+                        <span class="catalog-state">Disponible</span>
+                    </article>
+                </div>
+
+                <div class="catalog-mini-links">
+                    <span>Landing</span>
+                    <span>Privacy</span>
+                    <span>Support</span>
+                    <span>Terms</span>
+                </div>
+
+                <p class="catalog-note">
+                    Chaque nouveau produit peut r&eacute;utiliser exactement le m&ecirc;me sch&eacute;ma de pages.
+                </p>
+            </div>
         </div>
     </section>
 </header>
 
-<main class="container">
-    <section class="section">
-        <h2>Our App</h2>
-        <div class="card">
-            <h3>Sudoku Play</h3>
-            <p>
-                A modern Sudoku experience with multiple difficulty levels, clean UI,
-                and smooth gameplay for casual and advanced players.
-            </p>
+<main>
+    <section class="section section-tight">
+        <div class="container quick-grid">
+            <article class="feature-card">
+                <p class="card-kicker">Positionnement</p>
+                <h2>Des interfaces mobiles lisibles et directes.</h2>
+                <p>
+                    Le studio vise des produits simples &agrave; comprendre, propres &agrave; utiliser et faciles &agrave; faire &eacute;voluer.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <p class="card-kicker">Structure</p>
+                <h2>Une base documentaire claire pour chaque app.</h2>
+                <p>
+                    Landing page, support, privacy et terms restent isol&eacute;s par produit pour &eacute;viter toute ambigu&iuml;t&eacute;.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <p class="card-kicker">Scalabilit&eacute;</p>
+                <h2>Ajouter une nouvelle app ne casse pas le site.</h2>
+                <p>
+                    Le site studio sert de vitrine globale pendant que chaque app garde son espace d&eacute;di&eacute;.
+                </p>
+            </article>
         </div>
     </section>
 
-    <section class="section grid">
-        <div class="card">
-            <h3>Privacy</h3>
-            <p>Learn how user data may be handled in our apps and services.</p>
-            <a href="privacy-policy.html">Read Privacy Policy</a>
-        </div>
+    <section class="section" id="products">
+        <div class="container">
+            <div class="section-head">
+                <span class="eyebrow eyebrow-light">Produits</span>
+                <h2>Le catalogue Edab Studios.</h2>
+                <p>
+                    Chaque produit est pr&eacute;sent&eacute; comme une entit&eacute; distincte avec ses propres liens de r&eacute;f&eacute;rence.
+                </p>
+            </div>
 
-        <div class="card">
-            <h3>Support</h3>
-            <p>Need help with one of our apps? Contact us anytime.</p>
-            <a href="support.html">Contact Support</a>
-        </div>
+            <div class="catalog-grid">
+                <article class="product-card">
+                    <div class="product-card-head">
+                        <div class="product-card-title">
+                            <img class="product-card-logo" src="assets/sudoku-play-icon.png" alt="Logo Sudoku Play" />
+                            <div>
+                                <p class="card-kicker">Puzzle mobile</p>
+                                <h3>Sudoku Play</h3>
+                            </div>
+                        </div>
+                        <span class="catalog-state">Disponible</span>
+                    </div>
 
-        <div class="card">
-            <h3>Terms</h3>
-            <p>Read the terms that apply when using our applications.</p>
-            <a href="terms.html">View Terms</a>
+                    <p class="product-summary">
+                        Un Sudoku mobile moderne avec cinq difficult&eacute;s, quatre modes de jeu,
+                        un d&eacute;fi quotidien, une progression joueur et une interface bilingue.
+                    </p>
+
+                    <div class="chip-row">
+                        <span class="chip">5 difficult&eacute;s</span>
+                        <span class="chip">4 modes</span>
+                        <span class="chip">FR / EN</span>
+                    </div>
+
+                    <div class="product-link-grid">
+                        <a class="product-link" href="products/sudoku-play/">
+                            <strong>Landing page</strong>
+                            <span>Pr&eacute;sentation du produit</span>
+                        </a>
+                        <a class="product-link" href="products/sudoku-play/privacy-policy/">
+                            <strong>Privacy Policy</strong>
+                            <span>Donn&eacute;es et consentement</span>
+                        </a>
+                        <a class="product-link" href="products/sudoku-play/support/">
+                            <strong>Support</strong>
+                            <span>Contact et assistance</span>
+                        </a>
+                        <a class="product-link" href="products/sudoku-play/terms/">
+                            <strong>Terms</strong>
+                            <span>Conditions d'utilisation</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container split-section">
+            <article class="feature-card feature-card-large">
+                <span class="eyebrow eyebrow-light">Mod&egrave;le de site</span>
+                <h2>Un point d'entr&eacute;e studio, puis un espace propre pour chaque application.</h2>
+                <p>
+                    Cette organisation garde le catalogue lisible, les URLs propres et les documents juridiques bien s&eacute;par&eacute;s.
+                </p>
+
+                <div class="doc-grid">
+                    <div class="doc-link">
+                        <strong>Landing</strong>
+                        <span>Pr&eacute;sentation d&eacute;di&eacute;e &agrave; l'app</span>
+                    </div>
+                    <div class="doc-link">
+                        <strong>Privacy</strong>
+                        <span>Politique de confidentialit&eacute; propre au produit</span>
+                    </div>
+                    <div class="doc-link">
+                        <strong>Support</strong>
+                        <span>Assistance cibl&eacute;e par application</span>
+                    </div>
+                    <div class="doc-link">
+                        <strong>Terms</strong>
+                        <span>Conditions d'utilisation s&eacute;par&eacute;es</span>
+                    </div>
+                </div>
+            </article>
+
+            <aside class="legal-panel">
+                <article class="legal-card">
+                    <p class="card-kicker">Hub studio</p>
+                    <h3>Centre de confidentialit&eacute;</h3>
+                    <a href="privacy-policy/">Ouvrir le hub privacy</a>
+                </article>
+
+                <article class="legal-card">
+                    <p class="card-kicker">Hub studio</p>
+                    <h3>Centre de support</h3>
+                    <a href="support/">Ouvrir le hub support</a>
+                </article>
+
+                <article class="legal-card">
+                    <p class="card-kicker">Hub studio</p>
+                    <h3>Conditions du site Edab Studios</h3>
+                    <a href="terms/">Ouvrir le hub terms</a>
+                </article>
+            </aside>
         </div>
     </section>
 </main>
 
-<footer class="footer">
-    <p>© 2026 Edab Studios. All rights reserved.</p>
+<footer class="site-footer">
+    <div class="container footer-shell">
+        <a class="brand brand-footer" href="./" aria-label="Retour a l'accueil">
+            <span class="brand-mark">
+                <img src="assets/edab-studios-logo.svg" alt="Edab Studios" />
+            </span>
+        </a>
+
+        <div class="footer-copy">
+            <p>Catalogue central Edab Studios avec espaces d&eacute;di&eacute;s pour chaque produit.</p>
+            <p class="footer-meta">&copy; 2026 Edab Studios. Tous droits r&eacute;serv&eacute;s.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="#products">Produits</a>
+            <a href="privacy-policy/">Confidentialit&eacute;</a>
+            <a href="support/">Support</a>
+            <a href="terms/">Conditions</a>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
